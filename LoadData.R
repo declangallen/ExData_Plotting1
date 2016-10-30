@@ -1,3 +1,10 @@
+
+
+##This script is run first. This will load the data from the archive onto your machine. 
+##Each plot can then be run independantly without the need to load the data each time.
+##Download data from UC Irvine archive. A directory named 'data' is created to house data
+
+
 ##Download data from UC Irvine archive. A directory named 'data' is created to house data
 
 if(!file.exists('data')) dir.create('data')
